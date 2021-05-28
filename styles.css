@@ -1,0 +1,137 @@
+
+
+/* for transition of navigatio of buttons use transition of font weight from light 300 to regular 400*/
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #fefaf6;
+}
+hr{
+    Margin: 45px auto;
+    width: 6rem;
+    border: none;
+    border-bottom: #423221 7px dotted;
+}
+.navigation-bar{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fefaf6;
+    padding-top: 15px;
+}
+.navigation-bar >.left-buttons >a{
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid transparent;
+    color:black;
+    margin: 0 5px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: border-bottom 0.5s, font-weight 0.1s ;
+    margin-left: 40px;
+}
+.navigation-bar >.left-buttons > a:hover{
+    border-bottom: 1px solid black;
+    font-weight: 400;
+    
+}
+.right-buttons> a{
+    padding-right: 10px;  
+}
+.linking-image{
+    height: 40px; 
+    width:40px;
+    transition: height 0.5s, width 0.5s, ease-out;  
+}
+.linking-image:hover{
+    height:45px;
+    width: 45px;
+}
+.top-container{
+    margin-top: 20px;
+    background-image: url(Image/Capture.PNG);
+    background-size: cover;
+    height: 400px;
+    padding-top: 100px;
+    color: #00ead3;
+}
+.top-container> h3{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+.top-container> h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin-bottom: 0;
+}
+h1,h2{
+    color: #00ead3;
+}
+h2{
+    font-size: 1.17rem;
+}
+.skills{
+    width: 50%;
+    margin: 1rem auto;
+}
+.skills~h1{
+    position: sticky;
+}
+.skills-list{
+    text-align: left;
+    margin-top: 5rem;
+}
+.skills-list>p{
+    line-height: 2;
+    margin-top: 0;
+}
+.coding-image{
+    height: 8rem;
+    width: 8rem;
+    float: left;
+    margin-right: 1rem;
+}
+.MS-Office-image{
+    height: 8rem;
+    width: 8rem;
+    float: left;
+    margin-right: 1rem;
+}
+.virtualisation-image{
+    height: 8rem;
+    width: 8rem;
+    float: right;
+    margin-left: 1rem;
+}
+
+.third-container{
+    margin:25px auto;
+}
+table{
+    margin: 20px auto;
+}
+th{
+    color:#00ead3;
+    border:none;
+}
+th, td{
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: inherit;
+    color:inherit;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+.contact-linking-image{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 25px;
+}
